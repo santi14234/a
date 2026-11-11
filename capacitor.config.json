@@ -1,0 +1,12 @@
+{
+  "appId": "app.play88.android",
+  "appName": "88play",
+  "webDir": "www",
+  "backgroundColor": "#0f0b09",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

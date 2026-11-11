@@ -1,0 +1,19 @@
+{
+  "name": "88play-android",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "88play (MUCOM88 en el navegador) empaquetado para Android con editor de instrumentos FM",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "test": "node scripts/test-voice.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
